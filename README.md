@@ -44,10 +44,7 @@ The latest vagrant build for the Udacity tournament project.
   1. In the same terminal type `vagrant ssh`
 3. Change to the correct folder
   1. Type `cd /vagrant/tournament`
-4. Open PSQL and run the tournament.sql 
-  1. type `psql`
-  2. copy the contents of tournament.sql and paste in to the terminal window
-  3. type `\q` to quit out of PSQL 
+4. Setup your database with the single command `psql -f tournament.sql`
 5. Run the tests
   1. In the terminal type `python tournament_test.py`
 
